@@ -3,7 +3,7 @@ config {
   schema: "staging",
   description: "Cleaned version of stackoverflow.posts_answers"
 }
-
+-- comment for branch
 select
   id as post_id,
   creation_date as created_at,
